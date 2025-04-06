@@ -1,0 +1,50 @@
+.experience {
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #002a33;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    text-align: left;
+}
+
+.experience-card h3 {
+    font-size: 20px;
+    color: #002a33;
+    margin-bottom: 5px;
+}
+
+.experience-card h4 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.experience-card .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.experience-card p {
+    font-size: 15px;
+    line-height: 1.5;
+}
