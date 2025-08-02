@@ -1,0 +1,28 @@
+.certificates {
+    padding: 80px 20px;
+    background-color: #f0f4f3;
+    color: #002a33;
+    text-align: center;
+}
+
+.certificates h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.cert-list {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.cert-list li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}

@@ -1,0 +1,122 @@
+:root {
+    --dark-teal: #002a33;
+    --accent: #d4bfa2;
+    --soft-white: #f5efe7;
+    --beige: #fffaf3;
+    --hover-color: #01414f;
+    --darkcyan: var(--darkcyan);
+}
+
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(150deg, var(--dark-teal), var(--darkcyan), var(--bg-light));
+    /* Soft gradient */
+    color: var(--dark-teal);
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    width: 100%;
+    /* Full width */
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: var(--dark-teal);
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 300;
+}
+
+/* Centering table and its content */
+.details {
+    margin: 0 auto 30px;
+    width: 80%;
+    /* Limit table width for better readability */
+    max-width: 700px;
+    /* Optional: Set a max width for the table */
+    text-align: center;
+    /* Center content in table cells */
+    border-collapse: collapse;
+    font-size: 16px;
+    color: var(--dark-teal);
+}
+
+/* Center the table data */
+.details td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    /* Center the content inside each table cell */
+}
+
+.details td:last-child {
+    text-align: center;
+    /* Ensure the last column is centered as well */
+}
+
+/* Styling buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: darkcyan;
+}
+
+.button {
+    padding: 12px 25px;
+    background: var(--dark-teal);
+    color: darkcyan;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button.alt {
+    background: transparent;
+    border: 2px solid var(--dark-teal);
+    color: var(--dark-teal);
+}
+
+.button:hover {
+    background-color: var(--hover-color);
+    color: darkcyan;
+}
+
+.button.alt:hover {
+    background-color: var(--dark-teal);
+    color: darkcyan;
+}
+
+/* Optional: Hover animation for buttons */
+.button:hover,
+.button.alt:hover {
+    transform: translateY(-5px);
+}
+
+/* Optional: Fade-in effect for the section */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about {
+    animation: fadeIn 1.5s ease-in-out;
+}
