@@ -3,12 +3,21 @@
 
 # Node modules (very important)
 node_modules/
+.pnp
+.pnp.js
 
-# Environment files (if you ever use one)
+# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Build output (optional if you build for deployment)
+# Build output
 build/
+
+# Testing
+coverage/
 
 # Logs
 npm-debug.log*
