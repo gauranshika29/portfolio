@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Leadership from './components/Leadership';
 import Certificates from './components/Certificates';
 import Contact from './components/Contact';
+import ThankYou from './components/thankyou';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <li><a href="#leadership">Leadership</a></li>
           <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="/thankyou">Thank You</a></li>
         </ul>
       </nav>
 
@@ -30,6 +32,7 @@ function App() {
       <Leadership />
       <Certificates />
       <Contact />
+      <ThankYou />
     </>
   );
 }

@@ -1,3 +1,4 @@
+app.css 
 :root {
   --dark-teal: #002a33;
   --beige: #f5efe7;
@@ -7,6 +8,22 @@
   --rose: #fcd5ce;
   --bg-light: #f8f8f8;
   --darkcyan: darkcyan;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  .hero-section {
+  padding: var(--spacing-lg) var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.card {
+  padding: var(--spacing-md);
+  gap: var(--spacing-sm);
+}
 }
 
 body {
@@ -35,6 +52,10 @@ body {
   gap: 40px;
   list-style: none;
   padding: 0;
+}
+
+.navbar li {
+  font-size: 18px;
 }
 
 .navbar a {
@@ -180,3 +201,6 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
+
+
